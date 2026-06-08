@@ -48,6 +48,12 @@ primetrade-backend/
 - Node.js v18+
 - PostgreSQL installed and running
 
+### Tested Versions
+
+- Node.js 18+
+- PostgreSQL 15+
+- Prisma 6.19.x
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/primetrade-backend.git
@@ -131,6 +137,19 @@ http://localhost:5000/api-docs
 - **Rate limiting** (100 req/15min general, 10 req/15min auth)
 - Input validation & sanitization with **Zod**
 - Global error handling with proper HTTP status codes
+
+---
+
+## Running the Project
+
+Backend:
+http://localhost:5000
+
+Frontend:
+http://localhost:5173
+
+Swagger:
+http://localhost:5000/api-docs
 
 ---
 
