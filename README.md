@@ -21,7 +21,9 @@ A scalable REST API with JWT Authentication & Role-Based Access Control, built w
 
 ##  Project Structure
 
-'''text
+## Project Structure
+
+```text
 primetrade-backend/
 ├── src/
 │   ├── config/         # DB & Swagger config
@@ -37,8 +39,7 @@ primetrade-backend/
 ├── .env.example
 ├── server.js
 └── README.md
-'''
-
+```
 ---
 
 ##  Setup & Installation
